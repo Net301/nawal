@@ -1,0 +1,70 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../images/fullbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nawal-bg {
+  background-color: rgba(255,255,255,0.6) !important;
+}
+
+.nawal-header-bg {
+  background-color: rgba(40, 167, 69,0.2) !important;
+}
+
+.nawal-border-radius {
+    border-radius: 25px;
+  border:3px solid rgba(255,255,255,0.1);
+}
+
+.nawal-header-circles { border:3px solid rgba(40, 167, 69,0.2) !important }
+
+h1 {
+  font-size: 30px !important;
+}
+
+h2 {
+  font-size:25px !important;
+}
+
+h3 {
+  font-size:20px !important;
+  padding:5px !important;
+}
+
+#navbar {
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+.video-responsive{
+    border:10px solid black;
+    overflow:hidden;
+    height:0;
+}
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.contactmelink {
+  color:black !important;
+}
