@@ -6,7 +6,7 @@ set_error_handler("var_dump");
 $to = "nizaretto@gmail.com";
 $subject = "My subject";
 $txt = "Hello world!";
-$headers = "From: me@box-codeanywhere.com" . "\r\n" ;
+$headers = "From: noreply@nawal-awad.com" . "\r\n" ;
 
 if (mail($to,$subject,$txt,$headers)) echo "success"; else echo"fail";
 ?>
