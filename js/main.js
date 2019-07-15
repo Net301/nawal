@@ -34,7 +34,7 @@ $(document).ready(function() {
     $.ajax({
      type: "POST",
      url: "form.php",
-     data: $("#contactform").serialize(),
+     data: {name:$("#name").val(), phone:$("#phone").val()},
      success: function(msg) {
        $("#contactusformloader").hide();
        $("#successfulsaving").show();
